@@ -132,7 +132,7 @@ Thumbs.db
 
 # Python tracebacks
 *.log
-logs
 
 # Temp
 config.yaml
+main.txt
