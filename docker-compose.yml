@@ -11,4 +11,4 @@ services:
         user: root
         cap_add:
           - NET_RAW  
-          - NET_ADMIN  
+          - NET_ADMIN
