@@ -1,8 +1,8 @@
 # Zontahnos Agent
 
-This is an agent ran as a docker container that will montior network endpoints. It is meant to be used with the zontahnos framework (https://github.com/sjjensen2004/zontahnos). It will take a list of hosts and log network status (up/down) and performance metrics to Zontahnos. This will allow you to monitor critical workloads from multiple different context (i.e., is the endpoint reachable from the DC, HQ, Branch office, etc.). 
+This is an agent ran as a docker container that will monitor network endpoints. It is meant to be used with the zontahnos framework (https://github.com/sjjensen2004/zontahnos). It will take a list of hosts and log network status (up/down) and performance metrics to Zontahnos. This will allow you to monitor critical workloads from multiple different context (i.e., is the endpoint reachable from the DC, HQ, Branch office, etc.). 
 
-**note** This is a beta applicaiton. It is not secuirty hardened and should be used at the users own risk.
+**note** This is a beta application. It is not security hardened and should be used at the users own risk.
 
 ## Setup
 
@@ -19,3 +19,4 @@ Populate config_example.yaml with the corresponding vars and then rename to conf
 ### Docker magic
 run `docker compose up --build
 
+**note** More complete and formal documentation will be drafted as this project matures. 
