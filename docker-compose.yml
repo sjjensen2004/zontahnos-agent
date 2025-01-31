@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+    agent:
+        build: zontahnos-agent
+        command: python main.py
+        tty: true
+        stdin_open: true
+        volumes:
+          - ./zontahnos-agent/app/app:/app/app
+        user: root
+        cap_add:
+          - NET_RAW  
+          - NET_ADMIN  
