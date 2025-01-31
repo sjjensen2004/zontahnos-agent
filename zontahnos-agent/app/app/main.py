@@ -1,4 +1,3 @@
-import logging
 from icmp.icmp_probe import execute_icmp_ping
 from icmp.icmp_probe import SECRET_KEY
 import concurrent.futures
@@ -6,11 +5,6 @@ from core.config import config
 from core.logging_config import logger
 
 HOST_TARGETS = config.get("HOST_TARGETS")
-
-
-def placeholder():
-    pass
-
 
 if __name__ == "__main__":
 
